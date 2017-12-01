@@ -1,0 +1,29 @@
+{
+  "name": "myjavanotebook",
+  "version": "0.0.1",
+  "description": "A web application for aggregating competitive programming and technical interview questions to one destination.",
+  "author": "furioustiles",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "dependencies": {
+    "json-loader": "^0.5.7",
+    "react": "^15.3.2",
+    "react-codemirror": "git://github.com/skidding/react-codemirror.git#106-fix-update",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^15.3.2",
+    "react-markdown": "^2.5.0",
+    "rest": "^1.3.1",
+    "sockjs-client": "^1.0.3",
+    "stompjs": "^2.3.3",
+    "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
